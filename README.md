@@ -34,7 +34,7 @@ Place to try Github related things
 - Keep making changes and commits, until your branch goal is reached, and your
   code passes all the tests. If other people will be working on the same
   branch, make sure to push you branch to the github repository `git push -u
-  origin/relevant-name-for-change`
+  origin relevant-name-for-change`
 
 
 ## Getting your change to the master branch
@@ -49,7 +49,7 @@ Place to try Github related things
   create a new issue on the github page. Fix any tests you can, and commit
   again
 
-- You are now ready to push `git push -u origin/relevant-name-for-change`
+- You are now ready to push `git push -u origin relevant-name-for-change`
 
 - Create a pull/merge request to be merged into master. There will be a code
   review phase by the repository admin and your branch will be merged with
