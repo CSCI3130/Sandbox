@@ -22,6 +22,8 @@ public class AppTest {
 
 	@Test
 	public void testRepository() {
+		App app = new App();
+		app.main(null);
 		assertEquals("sandbox", App.getRepositoryName());
 	}
 }
