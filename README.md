@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/CSCI3130/sandbox.png)]
 (https://travis-ci.org/CSCI3130/sandbox)
+[Code Coverage](https://codecov.io/github/codecov/codecov-node/coverage.svg)
 
 # Sandbox
 Place to try Github related things
