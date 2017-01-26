@@ -28,11 +28,11 @@ public class AppTest {
 	}
 
 	@Test
-	public void checkMd5Hash() {
+	public void checkSha256Hash() {
 		try {
 		PasswordHasher ph = new PasswordHasher();
-		assertEquals("e9f5bd2bae1c70770ff8c6e6cf2d7b76",
-				ph.hash("correcthorsebatterytaple"));
+		assertEquals("cbe6beb26479b568e5f15b50217c6c83c0ee051dc4e522b9840d8e291d6aaf46",
+				ph.hash("correcthorsebatterystaple"));
 		} catch(Exception e) {
 			e.printStackTrace();
 		}

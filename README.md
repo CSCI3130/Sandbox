@@ -1,8 +1,6 @@
 [![Build Status](https://travis-ci.org/CSCI3130/sandbox.png)]
 (https://travis-ci.org/CSCI3130/sandbox)
 
-[Code Coverage](https://codecov.io/github/CSCI3130/sandbox)
-
 # Sandbox
 Place to try Github related things
 
