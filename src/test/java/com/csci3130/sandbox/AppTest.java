@@ -26,4 +26,25 @@ public class AppTest {
 		app.main(null);
 		assertEquals("sandbox", App.getRepositoryName());
 	}
+
+	@Test
+	public void checkMd5Hash() {
+		try {
+		PasswordHasher ph = new PasswordHasher();
+		assertEquals("e9f5bd2bae1c70770ff8c6e6cf2d7b76",
+				ph.hash("correcthorsebatterytaple"));
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Test
+	public void checkPasswordHasher() {
+		try {
+			PasswordHasher ph = new PasswordHasher();
+			assertNotEquals("password", ph.hash("password"));
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
 }
